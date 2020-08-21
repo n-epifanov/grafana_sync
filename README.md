@@ -1,3 +1,6 @@
+![Gem version](https://img.shields.io/gem/v/grafana_sync?label=gem%20version)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/staring-frog/grafana_sync/Ruby)
+
 # Grafana Sync
 
 Syncs dashboards between Grafana instances. Lifts the burden of migrating
