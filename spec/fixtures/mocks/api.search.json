@@ -1,0 +1,70 @@
+[
+  {
+    "id": 254,
+    "uid": "D2gT03gGk",
+    "title": "Test",
+    "uri": "db/test",
+    "url": "/dashboards/f/D2gT03gGk/test",
+    "slug": "",
+    "type": "dash-folder",
+    "tags": [],
+    "isStarred": false
+  },
+  {
+    "id": 255,
+    "uid": "r6k10qgGz",
+    "title": "The Dashboard",
+    "uri": "db/the-dashboard",
+    "url": "/d/r6k10qgGz/the-dashboard",
+    "slug": "",
+    "type": "dash-db",
+    "tags": [],
+    "isStarred": false,
+    "folderId": 254,
+    "folderUid": "D2gT03gGk",
+    "folderTitle": "Test",
+    "folderUrl": "/dashboards/f/D2gT03gGk/test"
+  },
+  {
+    "id": 258,
+    "uid": "dpZCAqRMz",
+    "title": "Dashboard Dummy 1",
+    "uri": "db/dashboard-dummy-1",
+    "url": "/d/dpZCAqRMz/dashboard-dummy-1",
+    "slug": "",
+    "type": "dash-db",
+    "tags": [],
+    "isStarred": false,
+    "folderId": 254,
+    "folderUid": "D2gT03gGk",
+    "folderTitle": "Test",
+    "folderUrl": "/dashboards/f/D2gT03gGk/test"
+  },
+
+  {
+    "id": 256,
+    "uid": "p0uU0qRMz",
+    "title": "Test2",
+    "uri": "db/test2",
+    "url": "/dashboards/f/p0uU0qRMz/test2",
+    "slug": "",
+    "type": "dash-folder",
+    "tags": [],
+    "isStarred": false
+  },
+  {
+    "id": 257,
+    "uid": "cM9Q03gGk",
+    "title": "Dashboard Dummy 2",
+    "uri": "db/dashboard-dummy-2",
+    "url": "/d/cM9Q03gGk/dashboard-dummy-2",
+    "slug": "",
+    "type": "dash-db",
+    "tags": [],
+    "isStarred": false,
+    "folderId": 256,
+    "folderUid": "p0uU0qRMz",
+    "folderTitle": "Test2",
+    "folderUrl": "/dashboards/f/p0uU0qRMz/test2"
+  }
+]

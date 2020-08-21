@@ -1,0 +1,43 @@
+#!/usr/bin/env ruby
+
+require 'grafana_sync'
+require 'methadone'
+
+include Methadone::Main
+include Methadone::CLILogging
+
+version GrafanaSync::VERSION
+description 'Syncs dashboards between Grafana instances'
+# TODO: bash completion
+on('-f', '--make-folders', 'Make missing Grafana folders')
+on('-d', '--debug', 'Turn on debugging messages')
+arg :stage, 'One of the environments specified in config.rb to apply command for'
+arg :command, '''pull: download remote <stage> dashboard configs into "dashboards/"
+        diff: preview what changes would be made by <push>
+        push: upload local dashboard configs to <stage>
+'''
+
+leak_exceptions true
+main do |stage, command|
+  logger = Logger.new(STDERR,
+                      level: (options[:debug]) ? Logger::DEBUG : Logger::INFO)
+  stage = GrafanaSync::Stage.new(stage: stage.to_sym,
+                                 make_folders: options['make-folders'],
+                                 debug: options[:debug],
+                                 logger: logger)
+
+  case command
+  when "pull"
+    stage.pull
+  when "push"
+    stage.push
+  when "diff"
+    stage.diff
+  else
+    GrafanaSync::die("Unknown command '#{command}'!")
+  end
+
+  0
+end
+
+go!

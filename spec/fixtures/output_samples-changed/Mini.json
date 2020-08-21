@@ -1,0 +1,17 @@
+{
+  "dashboard": {
+    "editable": true,
+    "gnetId": null,
+    "graphTooltip": 0,
+    "panels": [
+    ],
+    "schemaVersion": 21,
+    "style": "dark",
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "timezone": "",
+    "title": "Mini"
+  }
+}
