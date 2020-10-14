@@ -28,11 +28,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "activesupport"
-  spec.add_runtime_dependency 'methadone'
-  spec.add_runtime_dependency 'http'
-  spec.add_runtime_dependency 'httplog'
-  spec.add_runtime_dependency 'diffy'
+  spec.add_runtime_dependency 'activesupport', '~> 6.0'
+  spec.add_runtime_dependency 'methadone', '~> 2.0'
+  spec.add_runtime_dependency 'http', '~> 4.4'
+  spec.add_runtime_dependency 'httplog', '~> 1.4'
+  spec.add_runtime_dependency 'diffy', '~> 3.3'
   spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'webmock'

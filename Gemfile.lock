@@ -2,11 +2,11 @@ PATH
   remote: .
   specs:
     grafana_sync (1.0.0)
-      activesupport
-      diffy
-      http
-      httplog
-      methadone
+      activesupport (~> 6.0)
+      diffy (~> 3.3)
+      http (~> 4.4)
+      httplog (~> 1.4)
+      methadone (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
