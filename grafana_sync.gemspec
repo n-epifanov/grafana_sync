@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
     ease the burden of migrating changes between Grafana instances for each
     environment.
   EOF
-  spec.homepage      = "https://github.com/funbox/grafana_sync"
+  spec.homepage      = "https://github.com/staring-frog/grafana_sync"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.metadata["source_code_uri"] = spec.homepage
