@@ -21,7 +21,7 @@ and head to it
 - install GrafanaSync locally (with e.g. [asdf](https://github.com/asdf-vm/asdf))
     ```
     asdf install
-    gem install bundler -v 2.1.4
+    gem install bundler -v 2.2.16
     bundle
     ```
     or globally
