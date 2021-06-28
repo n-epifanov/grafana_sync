@@ -30,8 +30,8 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'activesupport', '~> 6.0'
   spec.add_runtime_dependency 'methadone', '~> 2.0'
-  spec.add_runtime_dependency 'http', '~> 4.4'
-  spec.add_runtime_dependency 'httplog', '~> 1.4'
+  spec.add_runtime_dependency 'http', '>= 4.0'
+  spec.add_runtime_dependency 'httplog', '>= 1.4'
   spec.add_runtime_dependency 'diffy', '~> 3.3'
   spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'rspec'
