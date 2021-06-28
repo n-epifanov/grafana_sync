@@ -3,7 +3,7 @@ require_relative 'lib/grafana_sync/version'
 Gem::Specification.new do |spec|
   spec.name          = "grafana_sync"
   spec.version       = GrafanaSync::VERSION
-  spec.authors       = ["Nikolay Epifanov"]
+  spec.authors       = ["Nikolay Epifanov", "Rustam Safin"]
   spec.email         = ["nik.epifanov@gmail.com"]
   spec.licenses      = ["MIT"]
 
