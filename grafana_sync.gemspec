@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
     ease the burden of migrating changes between Grafana instances for each
     environment.
   EOF
-  spec.homepage      = "https://github.com/staring-frog/grafana_sync"
+  spec.homepage      = "https://github.com//funbox/grafana_sync"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.metadata["source_code_uri"] = spec.homepage
@@ -28,11 +28,12 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'activesupport', '>= 6', '< 8'
-  spec.add_runtime_dependency 'methadone', '~> 2.0'
+  spec.add_runtime_dependency 'activesupport', '>= 6.0'
+  spec.add_runtime_dependency 'methadone', '>= 2.0'
   spec.add_runtime_dependency 'http', '>= 4.0'
   spec.add_runtime_dependency 'httplog', '>= 1.4'
-  spec.add_runtime_dependency 'diffy', '~> 3.3'
+  spec.add_runtime_dependency 'diffy', '>= 3.3'
+
   spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'webmock'
