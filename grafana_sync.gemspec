@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'activesupport', '~> 6.0'
+  spec.add_runtime_dependency 'activesupport', '>= 6', '< 8'
   spec.add_runtime_dependency 'methadone', '~> 2.0'
   spec.add_runtime_dependency 'http', '~> 4.4'
   spec.add_runtime_dependency 'httplog', '~> 1.4'
