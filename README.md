@@ -1,9 +1,9 @@
 ![Gem version](https://img.shields.io/gem/v/grafana_sync?label=gem%20version)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/staring-frog/grafana_sync/Ruby)
 
-# Поддержка гема перехала в [репозиторий funbox/grafana_sync](https://github.com/funbox/grafana_sync)
-
 # Grafana Sync
+
+This Ruby Gem is now maintained at https://github.com/funbox/grafana_sync
 
 Syncs dashboards between Grafana instances. Lifts the burden of migrating
 changes between environment instances by hand. Unleashes the power of Linux
