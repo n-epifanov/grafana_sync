@@ -3,7 +3,7 @@
 
 # Grafana Sync
 
-This Ruby Gem is now maintained at https://github.com/funbox/grafana_sync
+**This Ruby Gem is now maintained at https://github.com/funbox/grafana_sync**
 
 Syncs dashboards between Grafana instances. Lifts the burden of migrating
 changes between environment instances by hand. Unleashes the power of Linux
